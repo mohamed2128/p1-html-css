@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+
+.HomepageBackgroundImg {
+    display: flex;
+    width: 100%;
+}
+
+  .Homepage {
+    background-color: #000000;
+    }
+
+    .HTMLPage {
+      background-color: #ffffff;
+      }
+
+
+.HTMLText {
+  font-size: 100%;
+}
+
+.HTMLTitle {
+  font-size: 200%;
+}
+
+.HTMLTitle2 {
+  font-size: 150%;
+}
+
+.JavaText {
+  color: #ffffff;
+font-size: 100%
+}
+
+.JavaTitle {
+  color: #ffffff;
+font-size: 200%;
+}
+
+.JavaTitle2 {
+  color: #ffffff;
+font-size: 150%;
+}
+
+.FooterEnd {
+display: block;
+width: 100%;
+text-align: center;
+padding: 2px;
+position: fixed;
+left: 0;
+bottom: 0;
+background: #00a8c7;
+color: #ffffff;
+}
