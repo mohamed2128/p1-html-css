@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="Resultaat.html" method="get">
+        <div>
+        <label for="name"> Voornaam: </label>
+        <input type="text" name="name" id="name" placeholder="Voorname" required  pattern="[a-zA-Z]">
+        </div>
+        <label>
+        Achternaam:
+        <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required pattern="[a-zA-Z]">
+        </label>
+        <div>
+        <label>
+            Male: 
+            <input type="radio" name="Gender" id="male" value="Male">
+
+        </label>
+        </div>
+        <div>
+            <label> Female:
+                <input type="radio" name="Gender" id="Female" value="Female">
+    
+            </label>
+            </div>
+            <div>
+            <label> Straat:
+                <input type="text" name="Straat" id="Straat" value="Straat" required>
+    
+            </label>
+        </div>
+        <div>
+            <label> Huisnummer:
+                <input type="number" name="number" id="number" value="Huisnummer" min="1" max="100" required>
+    
+            </label>
+        </div>
+        <div>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email" placeholder="email" required>
+        </div> 
+        <button type="reset">r e s e t</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

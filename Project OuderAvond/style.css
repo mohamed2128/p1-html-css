@@ -9,12 +9,12 @@
   body {
     font-family: 'Times New Roman', Times, serif
   }
-  
+
   nav {
     display: flex;
     width: 100vw;
-    height: 15vh;
-    padding: 2rem;
+    height: 10vh;
+    padding: 2px;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
@@ -27,6 +27,7 @@
     list-style-type: none;
   }
   nav li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.5rem;
     padding: 0 4rem 0 4rem;
   }
@@ -36,19 +37,26 @@
   }
   nav img {
     color: rgb(255, 255, 255);
-    width: 5vw;
+    width: 70px;
+    padding-left: 20px;
   }
-
-  section {
-    display: grid;
-    width: 0.1px;
-    height: 1000px;
-    padding: 0.5rem;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    background: #000000;
-    justify-content: space-between;
-  }
-
-
+  .FooterEnd {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #00ac00;
+    color: #ffffff;
+    }
+  
+  .MainBox header{
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;
+    }
