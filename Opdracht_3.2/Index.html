@@ -11,11 +11,11 @@
     <form action="Resultaat.html" method="get">
         <div>
             <label for="Voornaam"> Voornaam: </label>
-            <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" required pattern="[a-z A-Z]">
+            <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" required pattern="[a-z A-Z]*">
         </div>
         <label for="Achternaam">
             Achternaam:
-            <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required pattern="[a-z A-Z]">
+            <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required pattern="[a-z A-Z]*">
         </label>
         <div>
             <label for="Gender"> Male:
@@ -41,12 +41,12 @@
         </div>
         <div>
             <label for="Stad"> Stad:
-                <input type="text" name="Stad" id="Stad" placeholder="Stad" required>
+                <input type="text" name="Stad" id="Stad" value="Stad" placeholder="Stad" required>
             </label>
         </div>
         <div>
             <label for="Land"> Land:
-                <input type="text" name="Land" id="lang" placeholder="Land" required pattern="[A-Z a-z]">
+                <input type="text" name="Land" id="Land" value="Land" placeholder="Land" required pattern="[a-zA-Z]*">
             </label>
         </div>
         <div>
