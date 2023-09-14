@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <form action="Resultaat.html" method="get">
         <div>
-        <label for="name"> Voornaam: </label>
-        <input type="text" name="name" id="name" placeholder="Voorname" required  pattern="[a-zA-Z]">
+            <label for="name"> Voornaam: </label>
+            <input type="text" name="Voornaam" id="name" placeholder="Voornaam" minlength="1" required
+                pattern="[A-Z a-z]">
         </div>
         <label>
-        Achternaam:
-        <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required pattern="[a-zA-Z]">
+            Achternaam:
+            <input type="text" name="Achternaam" id="name" placeholder="Achternaam" minlength="1" required
+                pattern="[A-Z a-z]">
         </label>
         <div>
-        <label>
-            Male: 
-            <input type="radio" name="Gender" id="male" value="Male">
-
-        </label>
+            <label> Male:
+                <input type="radio" name="Gender" id="male" value="Male" required>
+            </label>
         </div>
         <div>
             <label> Female:
-                <input type="radio" name="Gender" id="Female" value="Female">
-    
+                <input type="radio" name="Gender" id="Female" value="Female" required>
             </label>
-            </div>
+        </div>
+        <label> Straat:
+            <input type="text" name="Straat" id="name" placeholder="Straat" required>
+        </label>
+        <label for="number"> Huisnummer:
+            <input type="number" name="number" id="number" value="huisnummer" min="1" max="100" required>
+        </label>
+        <div>
+            <label for="Postcode"> Postcode:
+                <input type="number" class="postcode" pattern="[0-9]{4}" placeholder="4 nummers" required />
+                <input type="text" class="postcode" pattern="[A-Z]{2}" placeholder="2 Letters" required />
+            </label>
+        </div>
+        <div>
+            <label> Stad:
+                <input type="text" name="Stad" id="name" placeholder="Stad" required>
+            </label>
+        </div>
+        <div>
+            <label> Land:
+                <input type="text" name="Land" id="name" placeholder="Land" required pattern="[A-Z a-z]">
+            </label>
+        </div>
+        <div>
+            <label> BSN-Nummer:
+                <input type="text" name="BSN-Nummer" id="name" placeholder="BSN-Nummer" maxlength="9" required
+                    pattern="[0-9]{9}">
+            </label>
+        </div>
+        <div>
+            <label for="VakantieLand"> VakantieLand:
+                <select class="VakantieLand" required>
+                    <option value="nederland"> Nederland </option>
+                    <option value="marroko"> Marroko </option>
+                    <option value="duistland"> Duistland </option>
+                    <option value="frankrijk"> Frankrijk </option>
+                    <option value="vereniged koningrijk"> Vereniged Koningrijk </option>
+                    <option value="united states"> United States </option>
+                </select>
+            </label>
+        </div>
+        <data for="Start"> Datum van vertrek: </data>
+        <input type="date" id="Start" name="DateStart" value="2023-09-14" min="2023-09-14" required>
+
+        <data for="End"> Datum van terugkomst: </data>
+        <input type="date" id="End" name="DateEnd" value="2023-09-14" min="2023-09-14" required>
+        <div>
+            <label for="number"> Aantal reisgenoten:
+                <input type="number" name="number" id="number" value="reisgenoten" min="1" max="4" required>
+            </label>
+        </div>
+        <div>
+            <label for="email"> Email:
+                <input type="email" name="email" id="email" placeholder="email" required>
+            </label>
             <div>
-            <label> Straat:
-                <input type="text" name="Straat" id="Straat" value="Straat" required>
-    
-            </label>
+                <label>
+                    Wachtwoord:
+                    <input type="password" name="Wachtwoord" id="name" placeholder="Wachtwoord" required>
+                </label>
+            </div>
         </div>
-        <div>
-            <label> Huisnummer:
-                <input type="number" name="number" id="number" value="Huisnummer" min="1" max="100" required>
-    
-            </label>
-        </div>
-        <div>
-        <label for="email"> Email: </label>
-        <input type="email" name="email" id="email" placeholder="email" required>
-        </div> 
-        <button type="reset">r e s e t</button>
-        <button type="submit">Submit</button>
+        <button type="reset">B a n a a n</button>
+        <button type="submit">Boek nu</button>
     </form>
 </body>
+
 </html>
