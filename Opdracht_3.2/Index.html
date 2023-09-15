@@ -8,27 +8,27 @@
 </head>
 
 <body>
-    <form action="Resultaat.html" method="get">
+    <form action="Resultaat.html" method="post">
         <div>
-            <label for="Voornaam"> Voornaam: </label>
-            <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" required pattern="[a-z A-Z]*">
+            <label for="firstname"> Voornaam: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Voornaam" required pattern="[a-z A-Z]*">
         </div>
-        <label for="Achternaam">
+        <label for="lastname">
             Achternaam:
-            <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required pattern="[a-z A-Z]*">
+            <input type="text" name="lastname" id="lastname" placeholder="Achternaam" required pattern="[a-z A-Z]*">
         </label>
         <div>
-            <label for="Gender"> Male:
-                <input type="radio" name="Gender" id="male" value="Male" required>
+            <label for="gender"> Male:
+                <input type="radio" name="gender" id="male" value="male" required>
             </label>
         </div>
         <div>
-            <label for="Gender"> Female:
-                <input type="radio" name="Gender" id="Female" value="Female" required>
+            <label for="gender"> Female:
+                <input type="radio" name="gender" id="female" value="female" required>
             </label>
         </div>
-        <label for="Straat"> Straat:
-            <input type="text" name="Straat" id="Straat" placeholder="Straat" required>
+        <label for="street"> Street:
+            <input type="text" name="street" id="street" placeholder="Street" required>
         </label>
         <label for="number"> Huisnummer:
             <input type="number" name="number" id="number" value="huisnummer" min="1" max="100" required>
@@ -40,13 +40,13 @@
             </label>
         </div>
         <div>
-            <label for="Stad"> Stad:
-                <input type="text" name="Stad" id="Stad" value="Stad" placeholder="Stad" required>
+            <label for="city"> City:
+                <input type="text" name="city" id="city" value="city" placeholder="City" required>
             </label>
         </div>
         <div>
-            <label for="Land"> Land:
-                <input type="text" name="Land" id="Land" value="Land" placeholder="Land" required pattern="[a-zA-Z]*">
+            <label for="land"> Land:
+                <input type="text" name="land" id="land" value="land" placeholder="Land" required pattern="[a-zA-Z]*">
             </label>
         </div>
         <div>
@@ -56,8 +56,8 @@
             </label>
         </div>
         <div>
-            <label for="VakantieLand"> VakantieLand:
-                <select class="VakantieLand" required>
+            <label for="vacationland"> Vacationland:
+                <select class="vacationland" required>
                     <option value="nederland"> Nederland </option>
                     <option value="marroko"> Marroko </option>
                     <option value="duistland"> Duistland </option>
@@ -67,24 +67,24 @@
                 </select>
             </label>
         </div>
-        <data for="Start"> Datum van vertrek: </data>
-        <input type="date" id="Start" name="DateStart" value="2023-09-14" min="2023-09-14" required>
+        <data for="start"> Date of departure: </data>
+        <input type="date" id="start" name="start" value="2023-09-14" min="2023-09-14" required>
 
-        <data for="End"> Datum van terugkomst: </data>
-        <input type="date" id="End" name="DateEnd" value="2023-09-14" min="2023-09-14" required>
+        <data for="end"> Datum van return: </data>
+        <input type="date" id="end" name="end" value="2023-09-14" min="2023-09-14" required>
         <div>
-            <label for="number"> Aantal reisgenoten:
-                <input type="number" name="number" id="number" value="reisgenoten" min="1" max="4" required>
+            <label for="number"> Amount of traveling companions:
+                <input type="number" name="number" id="number" value="traveling companions" min="1" max="4" required>
             </label>
         </div>
         <div>
             <label for="email"> Email:
-                <input type="email" name="email" id="email" placeholder="email" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
             </label>
             <div>
                 <label>
-                    Wachtwoord:
-                    <input type="password" name="Wachtwoord" id="name" placeholder="Wachtwoord" required>
+                    Password:
+                    <input type="password" name="password" id="name" placeholder="Password" required>
                 </label>
             </div>
         </div>
