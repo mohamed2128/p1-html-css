@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-Container {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+}
+
+.item {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    width: 50%;
+    height:  50%;
+}
