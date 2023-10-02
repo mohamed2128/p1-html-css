@@ -51,6 +51,7 @@ nav img {
   position: absolute;
   background-color: rgb(255, 255, 255);
   min-width: 20vh;
+  flex-direction: column;
   box-shadow: 0px 0px 10px 10px rgba(0, 183, 250, 0.5);
   z-index: 1;
 }
@@ -58,13 +59,13 @@ nav img {
 .Dropdown-content a {
   color: #00ffff;
   font-size: 10px;
-  display: block;
+  display: flex;
   padding: 5rem 1rem;
   text-align: center;
 }
 
 .DropdownM1:hover .Dropdown-content {
-  display: block;
+  display: flex;
 }
 
 .DropdownM1:hover a {
