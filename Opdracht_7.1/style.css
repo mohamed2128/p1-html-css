@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 1200px) {
+    
 .flexbox-container {
     background-color: rgb(218, 43, 3);
     width: 100%;
@@ -66,4 +68,5 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 15px;
+}
 }

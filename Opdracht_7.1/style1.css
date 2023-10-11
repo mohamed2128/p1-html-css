@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {   
+@media screen and (min-width: 768px) and (max-width: 1200px) {   
     .flexbox-container {
         background-color: rgb(195, 45, 75);
         width: 100%;
